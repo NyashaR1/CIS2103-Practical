@@ -107,3 +107,21 @@ footer {
     background-color: #173b67;
     border-radius: 12px;
 }
+/* Skills section: CSS Grid layout */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-grid li {
+    padding: 16px;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #e8f0fa;
+    border: 1px solid #c5d5e8;
+    border-radius: 8px;
+}
